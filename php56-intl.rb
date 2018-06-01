@@ -8,9 +8,9 @@ class Php56Intl < AbstractPhp56Extension
   sha256 PHP_CHECKSUM[:sha256]
   version PHP_VERSION
 
-  put PHP_SRC_TARBALL
-  put PHP_CHECKSUM
-  put PHP_VERSION
+  puts PHP_SRC_TARBALL
+  puts PHP_CHECKSUM
+  puts PHP_VERSION
   
   bottle do	
     root_url "https://github.com/aurambaj/homebrew-phpintlicu521/releases/download/0.1" 	
