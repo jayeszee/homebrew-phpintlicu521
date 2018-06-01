@@ -1,4 +1,4 @@
-require File.expand_path("../../../homebrew/homebrew-php/Abstract/abstract-php-extension", __FILE__)
+require File.expand_path("../../../box/homebrew-php-box/Abstract/abstract-php-extension", __FILE__)
 
 class Php56Intl < AbstractPhp56Extension
   init
