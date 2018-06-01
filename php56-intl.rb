@@ -8,11 +8,6 @@ class Php56Intl < AbstractPhp56Extension
   sha256 PHP_CHECKSUM[:sha256]
   version PHP_VERSION
 
-  puts PHP_SRC_TARBALL
-  puts PHP_CHECKSUM
-  puts PHP_VERSION
-
-  
   depends_on "icu4c521"
   
   def install
