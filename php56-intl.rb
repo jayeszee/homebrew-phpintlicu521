@@ -8,8 +8,14 @@ class Php56Intl < AbstractPhp56Extension
   sha256 PHP_CHECKSUM[:sha256]
   version PHP_VERSION
 
+  bottle do	
+    root_url "https://github.com/aurambaj/homebrew-phpintlicu521/releases/download/0.1" 	
+    sha256 "69a857e34201b3de6cadbef23bae6b323f0377a772f9160e2cbbe9d575fb939b" => :el_capitan
+    sha256 "69a857e34201b3de6cadbef23bae6b323f0377a772f9160e2cbbe9d575fb939b" => :sierra
+  end
+  
   depends_on "icu4c521"
-
+  
   def install
     Dir.chdir "ext/intl"
 
