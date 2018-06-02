@@ -32,7 +32,7 @@ class Php56Intl < AbstractPhp56Extension
   end
 
   def config_file
-    super + <<-EOS.undent
+    super + <<-EOS
       ;intl.default_locale =
       ; This directive allows you to produce PHP errors when some error
       ; happens within intl functions. The value is the level of the error produced.
